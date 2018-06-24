@@ -1,0 +1,106 @@
+{
+  "_args": [
+    [
+      "strapi-plugin-content-type-builder@alpha",
+      "/home/carlos/vscode-workspace/my-strapi-app/plugins/content-type-builder"
+    ]
+  ],
+  "_from": "strapi-plugin-content-type-builder@alpha",
+  "_id": "strapi-plugin-content-type-builder@3.0.0-alpha.12.5",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/strapi-plugin-content-type-builder",
+  "_nodeVersion": "9.11.2",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/strapi-plugin-content-type-builder_3.0.0-alpha.12.5_1529334765422_0.7386596826455629"
+  },
+  "_npmUser": {
+    "email": "support@strapi.io",
+    "name": "strapi"
+  },
+  "_npmVersion": "5.1.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "strapi-plugin-content-type-builder",
+    "raw": "strapi-plugin-content-type-builder@alpha",
+    "rawSpec": "alpha",
+    "scope": null,
+    "spec": "alpha",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/strapi-plugin-content-type-builder/-/strapi-plugin-content-type-builder-3.0.0-alpha.12.5.tgz",
+  "_shasum": "a492965d1316a75ffe38aa38aaa0bfaf579264a2",
+  "_shrinkwrap": null,
+  "_spec": "strapi-plugin-content-type-builder@alpha",
+  "_where": "/home/carlos/vscode-workspace/my-strapi-app/plugins/content-type-builder",
+  "author": {
+    "email": "hi@strapi.io",
+    "name": "Strapi team",
+    "url": "http://strapi.io"
+  },
+  "bugs": {
+    "url": "https://github.com/strapi/strapi/issues"
+  },
+  "dependencies": {
+    "pluralize": "^7.0.0",
+    "strapi-generate": "3.0.0-alpha.12.5",
+    "strapi-generate-api": "3.0.0-alpha.12.5"
+  },
+  "description": "Strapi plugin to create content type (API).",
+  "devDependencies": {
+    "strapi-helper-plugin": "3.0.0-alpha.12.5"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 166,
+    "integrity": "sha512-8cVLrKkDoKnHs2knUEEH88gBMpvBTJuTi4c4pipcvVy4Mam/gP5yJ46v2bS+NiTpetv18B0qyHTKQcNIbFwDkg==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbJ8vtCRA9TVsSAnZWagAAOscP/jMuT/w1zmA4Q+J5Gczs\nC25R1Qm2el6doUUac/abjU+TokcHW8+AwTrQrwNKXj3Wvkk+FRir6d/EHlvx\nQk9tQZsD/rSs3jA/5eoQT1EIL0R5rsDTYxv+ZVTPI3M56W2boqT3G/6NvgcD\nBol+XGFn2JitXcM2O6oikKWlRjnROd4f0p3THrTitNbebNnnkeCBwWv5mkd2\n8DQYS1qwuNyEtb0ljgKMn+OYvCgszbzVD1Ni+sBQHF9Y+UJ2WqvTr7TK1j/M\n9g3jrqAj+rfxYwt1FTcx8am+xax9X1F4j+1yiZdVHMGz5QV/Vxy+I3ffBg+i\nu6hCTXuBgmVoRQe3GPP2TfhMfO/enoigWbcRgW2Na099QjIuT44+LOzlTKpW\niO1coryZMaLwFoecV3qLpPEFG9utGcQkrok+e3rIeTtWiH6lA3Uc8gL/pAJ7\ne6EevflkCv8Yp+pDBrmvJJZqSOnd4QpNeBNPL+qtmfbGM4g9Xhg5rMoZ9NbA\nmOCEZtkhz7oFbARoD0M/lAOUgSL4FvXkKUcRPvk2nfTjcO28sW9ySHew4JDV\nPHF1n4PPIkCopOupecOOVYLeuLTdRVwxjFatYn9SrfxxfxTiRsaJYnpz6HX1\nEruJnjjdw3MKusZXHOCreuOy84jPUrtKpcARrylZncwl/wIpQMgd+GOES9aj\nnz+o\r\n=DbNY\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "a492965d1316a75ffe38aa38aaa0bfaf579264a2",
+    "tarball": "https://registry.npmjs.org/strapi-plugin-content-type-builder/-/strapi-plugin-content-type-builder-3.0.0-alpha.12.5.tgz",
+    "unpackedSize": 2116030
+  },
+  "engines": {
+    "node": ">= 9.0.0",
+    "npm": ">= 5.0.0"
+  },
+  "homepage": "https://github.com/strapi/strapi#readme",
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "strapi",
+      "email": "support@strapi.io"
+    }
+  ],
+  "name": "strapi-plugin-content-type-builder",
+  "optionalDependencies": {},
+  "readme": "# Strapi plugin",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/strapi/strapi.git"
+  },
+  "scripts": {
+    "analyze": "node ./node_modules/strapi-helper-plugin/lib/internals/scripts/analyze.js",
+    "analyze:clean": "node ./node_modules/strapi-helper-plugin/node_modules/.bin/rimraf stats.json",
+    "build": "node ./node_modules/strapi-helper-plugin/node_modules/.bin/cross-env NODE_ENV=production node node_modules/strapi-helper-plugin/node_modules/.bin/webpack --config node_modules/strapi-helper-plugin/lib/internals/webpack/webpack.prod.babel.js --color -p --progress",
+    "build:clean": "node ./node_modules/strapi-helper-plugin/node_modules/.bin/rimraf admin/build",
+    "build:dev": "node ./node_modules/strapi-helper-plugin/node_modules/.bin/cross-env NODE_ENV=development node ./node_modules/strapi-helper-plugin/node_modules/.bin/webpack --config node_modules/strapi-helper-plugin/lib/internals/webpack/webpack.prod.babel.js --color -p --progress",
+    "generate": "node ./node_modules/plop/plop.js --plopfile node_modules/strapi-helper-plugin/lib/internals/generators/index.js",
+    "preanalyze": "npm run analyze:clean",
+    "prebuild": "npm run build:clean",
+    "prepublishOnly": "IS_MONOREPO=true npm run build",
+    "prettier": "node ./node_modules/strapi-helper-plugin/node_modules/.bin/prettier --single-quote --trailing-comma es5 --write \"{admin,__{tests,mocks}__}/**/*.js\"",
+    "start": "node ./node_modules/strapi-helper-plugin/node_modules/.bin/cross-env NODE_ENV=development node ./node_modules/strapi-helper-plugin/lib/server",
+    "test": "echo \"Error: no test specified\""
+  },
+  "strapi": {
+    "description": "content-type-builder.plugin.description",
+    "icon": "paint-brush",
+    "name": "Content Type Builder"
+  },
+  "version": "3.0.0-alpha.12.5"
+}

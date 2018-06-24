@@ -1,0 +1,105 @@
+{
+  "_args": [
+    [
+      "strapi-plugin-settings-manager@alpha",
+      "/home/carlos/vscode-workspace/my-strapi-app/plugins/settings-manager"
+    ]
+  ],
+  "_from": "strapi-plugin-settings-manager@alpha",
+  "_id": "strapi-plugin-settings-manager@3.0.0-alpha.12.5",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/strapi-plugin-settings-manager",
+  "_nodeVersion": "9.11.2",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/strapi-plugin-settings-manager_3.0.0-alpha.12.5_1529334868496_0.8757928789821421"
+  },
+  "_npmUser": {
+    "email": "support@strapi.io",
+    "name": "strapi"
+  },
+  "_npmVersion": "5.1.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "strapi-plugin-settings-manager",
+    "raw": "strapi-plugin-settings-manager@alpha",
+    "rawSpec": "alpha",
+    "scope": null,
+    "spec": "alpha",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/strapi-plugin-settings-manager/-/strapi-plugin-settings-manager-3.0.0-alpha.12.5.tgz",
+  "_shasum": "80849106ff62894858619e7e44564aa36232d2e5",
+  "_shrinkwrap": null,
+  "_spec": "strapi-plugin-settings-manager@alpha",
+  "_where": "/home/carlos/vscode-workspace/my-strapi-app/plugins/settings-manager",
+  "author": {
+    "email": "hi@strapi.io",
+    "name": "Strapi team",
+    "url": "http://strapi.io"
+  },
+  "bugs": {
+    "url": "https://github.com/strapi/strapi/issues"
+  },
+  "dependencies": {},
+  "description": "Strapi plugin to manage settings.",
+  "devDependencies": {
+    "flag-icon-css": "^2.8.0",
+    "react-select": "^1.0.0-rc.5",
+    "strapi-helper-plugin": "3.0.0-alpha.12.5"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 617,
+    "integrity": "sha512-yW4a15Rx6Vx/jYTP4UbZt9oYHapOPkeYVMYAt+2Vn/5U1CDETdjuEQOHgLmtlcgT8qx7JQx1ec/iq+X9Q9O7KQ==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbJ8xUCRA9TVsSAnZWagAAJWUQAJNTOtDZzEkdVnWZvxu1\nkA0BGNmbN/+yK+19GFx6Z/PY6bqYWrNwRiPVj11JObS0/j5mqqvD/gzEmOUa\njE0XBqneu7FL6jqRjEV4L8AKaLgiOGTRHnGFA01ramDboJFF0N1pOROarFk2\nWfCTp6Vh23+Vvxm+UsVZQKJmhcJoVt7s31CkQPyFOLGQDfcjdsE/qyHLcNB+\nE71enhTxL3hti1/WEbIykgxOOgx2ZVef8wIR8R3zLLMhi3OLTMZDTdrZawBf\nf6OPagjgPRetkN2hevlADzK3hraU21uzxPVz09GsfieP7CeZUAir1vHw+zUr\niDHqdoo7foW4Q+lRulX0BgkQTFsIboNV/q9oJyVYexQ/eCnP9kgdhozVY02i\nuOsmEQ3hZCGFVwKbWqBz5zterEJt99+bQ7ZSeXgbaiHS8mlmKWaYYZSq0062\njVuGcDpDafdmm9i8eAopuPT/U6XFIatN4d0Bzt7BEsTALz7v+Y40BXycVDO3\nyxT1ZY8PnhLi6CvfucLVDO0j7vlIyww+SwSXI/dkV4P95MObsilWiG8BIE/r\nxGIMCduKUboGUhxWjRs4aOV2QQl8sfGlOifr5grJkTM1DiVXZU/EBkojUQ4u\nJtjrIHp6Udz5n8zkuzVkH4CELpyO6q6o6oosF2T8XVzDY6Pl98NMA9AcyTGz\n9vIJ\r\n=VnXR\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "80849106ff62894858619e7e44564aa36232d2e5",
+    "tarball": "https://registry.npmjs.org/strapi-plugin-settings-manager/-/strapi-plugin-settings-manager-3.0.0-alpha.12.5.tgz",
+    "unpackedSize": 8336724
+  },
+  "engines": {
+    "node": ">= 9.0.0",
+    "npm": ">= 5.0.0"
+  },
+  "homepage": "https://github.com/strapi/strapi#readme",
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "strapi",
+      "email": "support@strapi.io"
+    }
+  ],
+  "name": "strapi-plugin-settings-manager",
+  "optionalDependencies": {},
+  "readme": "# Strapi plugin",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/strapi/strapi.git"
+  },
+  "scripts": {
+    "analyze": "node ./node_modules/strapi-helper-plugin/lib/internals/scripts/analyze.js",
+    "analyze:clean": "node ./node_modules/strapi-helper-plugin/node_modules/.bin/rimraf stats.json",
+    "build": "node ./node_modules/strapi-helper-plugin/node_modules/.bin/cross-env NODE_ENV=production node node_modules/strapi-helper-plugin/node_modules/.bin/webpack --config node_modules/strapi-helper-plugin/lib/internals/webpack/webpack.prod.babel.js --color -p --progress",
+    "build:clean": "node ./node_modules/strapi-helper-plugin/node_modules/.bin/rimraf admin/build",
+    "build:dev": "node ./node_modules/strapi-helper-plugin/node_modules/.bin/cross-env NODE_ENV=development node ./node_modules/strapi-helper-plugin/node_modules/.bin/webpack --config node_modules/strapi-helper-plugin/lib/internals/webpack/webpack.prod.babel.js --color -p --progress",
+    "generate": "node ./node_modules/strapi-helper-plugin/node_modules/.bin/plop --plopfile ./node_modules/strapi-helper-plugin/lib/internals/generators/index.js",
+    "lint": "node ./node_modules/strapi-helper-plugin/node_modules/.bin/eslint --ignore-path .gitignore --ignore-pattern '/admin/build/' --config ./node_modules/strapi-helper-plugin/lib/internals/eslint/.eslintrc.json admin",
+    "preanalyze": "npm run analyze:clean",
+    "prebuild": "npm run build:clean",
+    "prepublishOnly": "IS_MONOREPO=true npm run build",
+    "prettier": "node ./node_modules/strapi-helper-plugin/node_modules/.bin/prettier --single-quote --trailing-comma es5 --write \"{admin,__{tests,mocks}__}/**/*.js\"",
+    "start": "node ./node_modules/strapi-helper-plugin/node_modules/.bin/cross-env NODE_ENV=development node ./node_modules/strapi-helper-plugin/lib/server",
+    "test": "npm run lint"
+  },
+  "strapi": {
+    "description": "settings-manager.plugin.description",
+    "icon": "wrench",
+    "name": "Settings Manager"
+  },
+  "version": "3.0.0-alpha.12.5"
+}
